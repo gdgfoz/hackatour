@@ -1,0 +1,861 @@
+<!doctype html>
+<html lang="pt-br" ng-app="gdgfoz.hackatour" ng-cloak>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="HackaTur: maratona de desenvolvimento">
+<meta name="keywords" content="Hackaton, turismo, Foz do Iguaçu, Dsenvolvimento">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- SITE TITLE -->
+<title>HackaTur</title>
+
+<!-- =========================
+      FAV AND TOUCH ICONS
+============================== -->
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!-- =========================
+     STYLESHEETS
+============================== -->
+<!-- BOOTSTRAP -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- FONT ICONS -->
+<link rel="stylesheet" href="assets/elegant-icons/style.css">
+<link rel="stylesheet" href="assets/app-icons/styles.css">
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+
+<!-- WEB FONTS -->
+
+<link href='https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300' rel='stylesheet' type='text/css'>
+
+<!-- CAROUSEL AND LIGHTBOX -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/nivo-lightbox.css">
+<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+
+<!-- ANIMATIONS -->
+<link rel="stylesheet" href="css/animate.min.css">
+
+<!-- CUSTOM STYLESHEETS -->
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- COLORS -->
+<!-- <link rel="stylesheet" href="css/colors/blue.css"> DEFAULT COLOR/ CURRENTLY USING -->
+<!-- <link rel="stylesheet" href="css/colors/red.css"> -->
+ <link rel="stylesheet" href="css/colors/green.css">
+<!-- <link rel="stylesheet" href="css/colors/purple.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/orange.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/slate.css"> -->
+<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
+
+<!-- RESPONSIVE FIXES -->
+<link rel="stylesheet" href="css/responsive.css">
+
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+<![endif]-->
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<!-- =========================
+     PRE LOADER
+============================== -->
+<div class="preloader">
+  <div class="status">&nbsp;</div>
+</div>
+
+<!-- =========================
+     HEADER
+============================== -->
+<header class="header" id="home">
+
+<!-- COLOR OVER IMAGE -->
+<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+
+	<!-- STICKY NAVIGATION -->
+	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
+		<div class="container">
+			<div class="navbar-header">
+
+				<!-- LOGO ON STICKY NAV BAR -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#kane-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand logoo" href="#">
+					HackaTur
+				</a>
+
+			</div>
+
+			<!-- NAVIGATION LINKS -->
+			<div class="navbar-collapse collapse" id="kane-navigation">
+				<ul class="nav navbar-nav navbar-right main-navigation">
+					<li><a href="#home">Home</a></li>
+
+					<li><a href="#brief1">O Hackatur</a></li>
+					<li><a href="#brief2">Como participar</a></li>
+					<li><a href="#services">Hackaton</a></li>
+					<li><a href="#download">Inscrição</a></li>
+					<li><a href="#features">FAQ's</a></li>
+					<li><a href="#fcontato">Contato</a></li>
+				</ul>
+			</div>
+		</div> <!-- /END CONTAINER -->
+	</div> <!-- /END STICKY NAVIGATION -->
+
+
+	<!-- CONTAINER -->
+	<div class="container">
+
+		<!-- ONLY LOGO ON HEADER -->
+	<!--	<div class="only-logo">
+			<div class="navbar">
+				<div class="navbar-header">
+					<img src="images/logo.png" alt="">
+				</div>
+			</div>
+		</div>  /END ONLY LOGO ON HEADER -->
+
+		<div class="row home-contents">
+			<div class="col-md-7 col-sm-6">
+
+				<!-- HEADING AND BUTTONS -->
+				<div class="intro-section">
+
+					<!-- WELCOM MESSAGE -->
+					<h1 class="intro">Hackatur: três dias de desenvolvimento dedicados ao turismo de Foz do Iguaçu.</h1>
+					<!-- BUTTON -->
+					<div class="buttons" id="download-button">
+
+						<a href="#download" class="btn btn-default btn-lg standard-button">
+						</i>Mantenha-me informado</a>
+
+					</div>
+					<!-- /END BUTTONS -->
+
+
+				</div>
+				<!-- /END HEADNING AND BUTTONS -->
+				<!-- Countdown start -->
+				<div class="countdown wow bounceInUp">
+					<div class="defaultCountdown"></div>
+				</div>
+				<!-- Countdown end-->
+			</div>
+
+
+			<div class="col-md-5 col-sm-6">
+
+			  <div class="bol">
+					<div class="inner-content">
+											<p class="text-big text-uppercase">Hackatur 2016</p>
+											<h1 class="heading-text">15 a 17/06/16 </h1>
+											<p>Hotel Internacional, Rua. Almirante Barroso, nº 333, 	Centro,<br/>
+											 Foz do Iguaçu - PR
+											</p>
+										</div>
+			  </div>
+
+			</div>
+
+		</div>
+
+		<!-- /END ROW -->
+
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+</header>
+<!-- /END HEADER -->
+<!-- =========================
+     BRIEF LEFT SECTION
+============================== -->
+<section class="app-brief grey-bg" id="brief1">
+
+<div class="container">
+
+	<div class="row">
+
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+				<img class="img-responsive mrg-img1" src="images/IMG_FTF.jpg" alt="Festival do Turismo - Foz do Iguaçu - Hackathon em Foz">
+
+		</div>
+
+		<!-- RIGHT SIDE WITH BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Sobre o evento</h2>
+
+			<div class="colored-line-left">
+			</div>
+
+			<p>
+				Todos os anos o mercado de turismo movimenta uma grande parte da economia
+				na nossa região e por estar em constante crescimento é o ambiente perfeito para inovar.<br /><br />
+				Você acredita que pode construir algo novo com poder de transformação?<br /><br />
+				 Então este é o seu lugar.	A maratona de desenvolvimento organizada pela Iguassu Startups com o
+				apoio do GDG Fos do Iguaçu tem como objetivo desenvolver soluções para
+				a área de turismo na nossa região, por isso o nome Hackatur.
+				A programação compreenderá palestras, brainstorming, mentorias e avaliações
+				para a seleção das melhores soluções tecnológicas desenvolvidas.<br />
+				Veja abaixo as categorias de projetos:
+			</p>
+
+			<!-- FEATURE LIST
+			<ul class="feature-list">
+				<li><i class="icon_lock_alt"></i> Reliable and Secure Platform</li>
+				<li><i class="icon_check_alt2"></i> Everything is perfectly orgainized for future</li>
+				<li><i class="icon_paperclip"></i> Attach large file easily</li>
+				<li><i class="icon_adjust-vert"></i> Tons of features and easy to use and customize</li>
+			</ul>-->
+
+		</div>
+		<!-- /END RIGHT BRIEF -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+
+
+
+
+<!-- =========================
+     BRIEF RIGHT SECTION
+============================== -->
+<section class="app-brief" id="brief2">
+
+<div class="container">
+
+	<div class="row">
+
+		<!-- BRIEF -->
+		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SECTION TITLE -->
+			<h2 class="dark-text">Como participar</h2>
+
+			<div class="colored-line-left">
+			</div>
+
+			<p>
+				As inscrições além de gratuitas são abertas ao público e estão classificadas nas duas categorias a seguir, referentes aos perfis de participantes que o evento pretende reunir.
+
+Haverá uma seletiva por parte da organização, que irá convocar os inscritos que se enquadrarem.
+
+Ofereceremos gratuitamente café da manhã, lanche, café da tarde e, no último dia, coquetel.
+
+O evento não cobrirá despesas de alocação, transporte, estacionamento ou refeições externas.
+			</p>
+
+		</div>
+		<!-- /ENDBRIEF -->
+
+		<!-- PHONES IMAGE -->
+		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+				<img class="img-responsive mrg-img1" src="images/inscreva.jpg" alt="Hackatur Foz do Iguaçu">
+
+		</div>
+		<!-- /END PHONES IMAGE -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END SECTION -->
+
+
+<!-- =========================
+     BRIEF LEFT SECTION WITH VIDEO
+==============================
+<section class="app-brief grey-bg programacao" id="brief1">
+
+<div class="container">-->
+	<!-- SECTION TITLE -->
+	<!-- <h2 class="dark-text">Programação</h2>
+
+	<div class="colored-line"></div>
+
+	<div class="row">
+			<div class="col-md-12">
+
+				<div class="tabbable-panel">
+					<div class="tabbable-line">
+						<ul class="nav nav-tabs ">
+							<li class="active" class="fadeIn animated animated">
+								<a href="#tab_default_1" data-toggle="tab">
+								Dia 1 </a>
+							</li>
+							<li  class="fadeIn animated animated">
+								<a href="#tab_default_2" data-toggle="tab">
+								Dia 2 </a>
+							</li>
+							<li  class="fadeIn animated animated">
+								<a href="#tab_default_3" data-toggle="tab">
+								Dia 3 </a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab_default_1">
+								<p>
+									I'm in Tab 1.
+								</p>
+								<p>
+									Duis autem eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+								</p>
+								<p>
+									<a class="btn btn-success" href="http://j.mp/metronictheme" target="_blank">
+										Learn more...
+									</a>
+								</p>
+							</div>
+							<div class="tab-pane" id="tab_default_2">
+								<p>
+									Howdy, I'm in Tab 2.
+								</p>
+								<p>
+									Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
+								</p>
+								<p>
+									<a class="btn btn-warning" href="http://j.mp/metronictheme" target="_blank">
+										Click for more features...
+									</a>
+								</p>
+							</div>
+							<div class="tab-pane" id="tab_default_3">
+								<p>
+									Howdy, I'm in Tab 3.
+								</p>
+								<p>
+									Duis autem vel eum iriure dolor in hendrerit in vulputate. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
+								</p>
+								<p>
+									<a class="btn btn-info" href="http://j.mp/metronictheme" target="_blank">
+										Learn more...
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+</div> -->
+<!-- /END CONTAINER -->
+
+<!-- </section> -->
+<!-- /END SECTION -->
+
+
+<!-- =========================
+     SERVICES
+============================== -->
+<section class="services" id="services">
+
+<div class="container">
+
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">O Hackathon</h2>
+
+		<div class="colored-line">
+		</div>
+		<div class="section-description">
+			Veja mais alguns detalhes sobre o Hackathon.
+		</div>
+		<div class="colored-line">
+		</div>
+
+	</div>
+	<!-- /END SECTION HEADER -->
+
+	<div class="row">
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class="icon_question"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>O que é o Hackathon?</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				Hackathon significa maratona de programação. O termo resulta de uma
+				combinação das palavras inglesas “hack” (programar de forma excepcional)
+				e “marathon” (maratona). <br /><br />
+				No nosso caso serão dois dias inteiramente dedicados a
+				criação e desenvolvimento de soluções tecnológicas relacionadas a turismo.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class=" icon_cogs"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>Como funcionará?</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				Profissionais convidados farão apresentações suas experiências em casos
+				reais. <br /><br />
+				Haverá uma dinâmica para formações de grupos do Hackathon, os quais
+				deverão apresentar suas soluções ao término do evento, onde serão
+				avaliados pela bancada de jurados formada por especialistas, para
+				concorrer aos super prêmios exclusivos.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+		<!-- SINGLE SERVICE -->
+		<div class="col-md-4 single-service wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- SERVICE ICON -->
+			<div class="service-icon">
+				<i class=" icon_gift"></i>
+			</div>
+
+			<!-- SERVICE HEADING -->
+			<h3>Premiação</h3>
+
+			<!-- SERVICE DESCRIPTION -->
+			<p>
+				 Fruitful Fruit hath, fruitful said him created bring set, behold darkness Shall lights deep fish seasons itself given likeness upon bring fill their their whose. Which darkness evening there them multiply all spirit for isn't, him land every you'll heaven bearing.
+			</p>
+
+		</div>
+		<!-- /END SINGLE SERVICE -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
+
+
+
+<!-- =========================
+     DOWNLOAD NOW
+============================== -->
+<section class="download" id="download" ng-controller="MainController as main">
+
+<div class="bg-hacka">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+
+
+				<!-- SUBSCRIPTION FORM WITH TITLE -->
+				<div class="subscription-form-container">
+
+					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Fique por dentro!</h2>
+
+					<div class="colored-line white">
+					</div>
+					<div class="section-description">
+						Deixe suas informações de contato que lhe manteremos informado sobre o evento.
+					</div>
+					<div class="colored-line white mg-bot-60">
+					</div>
+
+					<!-- =====================
+					     MAILCHIMP FORM STARTS
+					     ===================== -->
+
+					<form ng-submit="main.register()" name="cadForm" class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+
+						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
+						<h4 ng-show="main.msg.text" class="msg-aviso" ng-class="{'error-rg': !main.msg.status}">{{main.msg.text}}</h4>
+
+						<!-- EMAIL INPUT BOX -->
+						<input type="text" name="name"  ng-model="main.row.name" required  placeholder="Nome" class="form-control input-box mg-bt-5"> <br />
+						<input type="email" name="email"  ng-model="main.row.mail" required placeholder="Seu E-mail" class="form-control input-box"> <br />
+
+						<!-- SUBSCRIBE BUTTON -->
+						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Enviar</button>
+
+					</form>
+					<!-- /END MAILCHIMP FORM STARTS -->
+
+					<!-- =====================
+					     LOCAL TXT FORM STARTS
+					     ===================== -->
+
+					<!-- THIS FORM IS COMMENTED TO HIDE
+
+					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
+
+						<h4 class="subscription-success"><i class="icon_check"></i> Thank you! We will notify you soon.</h4>
+						<h4 class="subscription-error">Something Wrong!</h4>
+
+						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
+
+						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
+
+					</form>
+
+					-->
+
+					<!-- / LOCAL TXT SAVING FORM END -->
+
+				</div>
+                <!-- END OF SUBSCRIPTION FORM WITH TITLE -->
+
+			</div>
+			<!-- END COLUMN -->
+
+		</div>
+		<!-- END ROW -->
+
+	</div>
+	<!-- /END CONTAINER -->
+</div>
+<!-- /END COLOR OVERLAY -->
+
+</section>
+<!-- /END DOWNLOAD SECTION -->
+
+
+<!-- =========================
+     FAQ'S
+============================== -->
+<section class="features" id="features">
+
+<div class="container">
+
+	<!-- SECTION HEADER -->
+	<div class="section-header wow fadeIn animated" data-wow-offset="120" data-wow-duration="1.5s">
+
+		<!-- SECTION TITLE -->
+		<h2 class="dark-text">FAQ's</h2>
+		<div class="colored-line">
+		</div>
+		<div class="section-description">
+			Algumas coisas que você pode querer saber sobre o evento.
+		</div>
+		<div class="colored-line">
+		</div>
+	</div>
+	<!-- /END SECTION HEADER -->
+
+
+	<div class="row">
+
+		<!-- FEATURES LEFT -->
+		<div class="col-md-6 col-sm-6 features-left wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s" style="border-right:3px solid #419A41;margin-right:-2.5px;">
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_map_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">O que posso desenvolver?</h4>
+					<p>
+						 Tudo que faça parte do mercado de turismo. Um site, aplicativo
+						mobile, metabuscador, o que sua mente criativa puder criar.
+						Seu principal objetivo será desenvolver algo que tenha real
+						potencial para inovar a área de turismo, e você decide
+						como irá entregar isto.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_gift_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Até quantos integrantes podem fazer parte do meu time?</h4>
+					<p>
+						Os times poderão ter até 5 integrantes no local. Caso você não tenha
+						um time, não se preocupe, poderemos ajudá-lo a formar times.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_tablet"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Quem será o dono do projeto e código que eu desenvolver?</h4>
+					<p>
+						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magn.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+		</div>
+		<!-- /END FEATURES LEFT -->
+
+
+		<!-- FEATURES RIGHT -->
+		<div class="col-md-6 col-sm-6 features-right wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container" style="  min-height: 180px;">
+					<div class="icon">
+						<i class="icon_genius"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Posso começar o desenvolvimento antes do início do Hackatur</h4>
+					<p>
+						 O processo de desenvolvimento deve ser realizado durante a
+						realização do Hackatur. O que você pode fazer, é se reunir com seu
+						time, pensar na ideia, brainstorm, design e wireframes, mas vocês
+						deverão iniciar o desenvolvimento no horário de início do Hackathon.</br>
+						 Queremos que todos tenham as mesmas oportunidades.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_lightbulb_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">Creative Design</h4>
+					<p>
+						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+					</p>
+				</div>
+
+			</div>
+
+			<!-- /END SINGLE FEATURE -->
+
+			<!-- FEATURE -->
+			<div class="feature">
+
+				<!-- ICON -->
+				<div class="icon-container">
+					<div class="icon">
+						<i class="icon_ribbon_alt"></i>
+					</div>
+				</div>
+
+				<!-- FEATURE HEADING AND DESCRIPTION -->
+				<div class="fetaure-details">
+					<h4 class="main-color">More Features</h4>
+					<p>
+						 Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+					</p>
+				</div>
+
+			</div>
+			<!-- /END SINGLE FEATURE -->
+
+		</div>
+		<!-- /END FEATURES RIGHT -->
+
+	</div>
+	<!-- /END ROW -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</section>
+<!-- /END FEATURES SECTION -->
+
+
+
+<!-- =========================
+     FOOTER
+============================== -->
+<footer>
+
+<div class="container">
+
+	<div id="contato" class="contact-box wow rotateIn animated" data-wow-offset="10" data-wow-duration="1.5s">
+
+		<!-- CONTACT BUTTON TO EXPAND OR COLLAPSE FORM -->
+
+		<a class="btn contact-button expand-form expanded"><i class="icon_mail_alt"></i></a>
+
+		<!-- EXPANDED CONTACT FORM -->
+		<div class="row expanded-contact-form">
+
+			<div class="col-md-8 col-md-offset-2">
+
+				<!-- FORM -->
+				<form class="contact-form" id="contact" role="form">
+
+					<!-- IF MAIL SENT SUCCESSFULLY -->
+					<h4 class="success">
+						<i class="icon_check"></i> Your message has been sent successfully.
+					</h4>
+
+					<!-- IF MAIL SENDING UNSUCCESSFULL -->
+					<h4 class="error">
+						<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.
+					</h4>
+
+					<div class="col-md-6">
+						<input class="form-control input-box" id="name" type="text" name="name" placeholder="Your Name">
+					</div>
+
+					<div class="col-md-6">
+						<input class="form-control input-box" id="email" type="email" name="email" placeholder="Your Email">
+					</div>
+
+					<div class="col-md-12">
+						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Subject">
+						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message"></textarea>
+					</div>
+
+					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Send Message</button>
+
+				</form>
+				<!-- /END FORM -->
+
+			</div>
+
+		</div>
+		<!-- /END EXPANDED CONTACT FORM -->
+
+	</div>
+	<!-- /END CONTACT BOX -->
+
+	<!-- LOGO -->
+
+	<h3 class="logoo">HackaTur</h3>
+
+	<!-- SOCIAL ICONS -->
+	<ul class="social-icons">
+		<li><a href=""><i class="social_facebook_square"></i></a></li>
+		<li><a href=""><i class="social_twitter_square"></i></a></li>
+		<li><a href=""><i class="social_pinterest_square"></i></a></li>
+		<li><a href=""><i class="social_googleplus_square"></i></a></li>
+		<li><a href=""><i class="social_instagram_square"></i></a></li>
+		<li><a href=""><i class="social_dribbble_square"></i></a></li>
+		<li><a href=""><i class="social_flickr_square"></i></a></li>
+	</ul>
+
+	<!-- COPYRIGHT TEXT
+	<p class="copyright">
+		©2014 Kane, All Rights Reserved
+	</p> -->
+
+</div>
+<!-- /END CONTAINER -->
+
+</footer>
+<!-- /END FOOTER -->
+
+
+<!-- =========================
+     SCRIPTS
+============================== -->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.localScroll.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/simple-expand.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/matchMedia.js"></script>
+<script src="js/jquery.backgroundvideo.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<!-- Angular Material requires Angular.js Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

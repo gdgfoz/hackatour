@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "cadastros": {
+      "$uid": {
+        ".write": "auth !== null && auth.uid === $uid",
+        ".read": "auth !== null && auth.provider === 'anonymous' && auth.uid === $uid"
+      }
+    }
+  }
+}
