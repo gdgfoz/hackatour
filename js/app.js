@@ -62,6 +62,8 @@
            vm.msg =  {text:"Obrigada por se registrar", status : true};
         }
 
+        var now = new Date();
+        vm.row.created_at = now.toString();        
         var r = cadastroRef.child(uid).set(vm.row);
         activate();
     }
