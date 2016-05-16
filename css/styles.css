@@ -165,11 +165,16 @@ line-height: 46px;
     color: rgb(65, 154, 65)!important;
     font-size: 2rem!important;
     font-weight: bold!important;
+    margin-top: -10px;
 }
 
 .msg-aviso.error-rg{
       border: 2px solid rgb(120, 19, 42);
         color: rgb(121, 20, 43);
+}
+
+.text-uppercase{
+	text-transform: uppercase;
 }
 /*---------------------------------------
    CUSTOM BUTTON
@@ -345,8 +350,8 @@ line-height: 25px;
 }
 
 .bol{
-    margin-top: 28px;
-    padding: 70px;
+    margin: 28px auto 0 auto;
+    padding: 60px;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -361,12 +366,20 @@ line-height: 25px;
     height: 400px;
     width: 400px;
     border-radius: 100%;
-  background: #fff;
+	background: #fff;
     color: #419A41;
 }
 
 .bol .heading-text{
-      letter-spacing: -4px;
+      letter-spacing: -1px;
+}
+
+.bol .text-big{
+	font-size: 2.25rem;
+}
+
+.bol .heading-text{
+	font-size: 2.1rem;
 }
 
 /*---------------------------------------
@@ -458,7 +471,7 @@ header .full-screen {
 }
 
 .sticky-navigation .navbar-header img {
-  max-height: 30px;
+  max-height: 44px;
   -webkit-backface-visibility: hidden;
 }
 
@@ -486,7 +499,12 @@ background: #313131;
 
 header .only-logo .navbar {
     background: none;
-    padding: 60px;
+    padding: 20px 0 0;
+    margin: 0;
+}
+
+header .only-logo .navbar img {
+    height: 90px;
 }
 
 header .only-logo .navbar .navbar-header {
@@ -852,24 +870,28 @@ object {
    SECTION:  DOWNLOAD
 -----------------------------------------*/
 
-.download {
+.subscription {
+    padding-top: 60px;
+}
+
+.subscription {
     color: #ffffff;
 }
 
-.download .color-overlay {
+.subscription .color-overlay {
     padding-top: 110px;
     padding-bottom: 70px;
 }
 
-.download .download-container {
+.subscription .download-container {
     padding-bottom: 80px;
 }
 
-.download .subscription-form-container {
+.subscription .subscription-form-container {
     padding-bottom: 80px;
 }
 
-.download .subscription-form .input-box {
+.subscription .subscription-form .input-box {
     height: 57px;
     padding-left: 20px;
     width: 320px;
@@ -879,24 +901,24 @@ object {
     border: 2px solid #FFF;
 }
 
-.download .subscription-form .input-box:focus,
-.download .subscription-form .input-box:active {
+.subscription .subscription-form .input-box:focus,
+.subscription .subscription-form .input-box:active {
     color: #000;
     font-weight: 400;
 }
 
-.download .subscription-form .subscription-success,
-.download .subscription-form .subscription-error {
+.subscription .subscription-form .subscription-success,
+.subscription .subscription-form .subscription-error {
     display: none;
 }
 
-.download h2 {
+.subscription h2 {
     margin-bottom: 0;
 }
-.download .colored-line.white{
+.subscription .colored-line.white{
     background: #fff;
 }
-.download .section-description{
+.subscription .section-description{
       padding: 10px;
 }
 .mg-bot-60{
@@ -912,6 +934,7 @@ footer {
 
 footer .contact-box {
     margin-bottom: 78px;
+    padding-top: 120px;
 }
 
 footer .contact-box .contact-button {
