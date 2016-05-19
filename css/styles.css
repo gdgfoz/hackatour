@@ -27,7 +27,7 @@ body {
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 
-@-webkit-viewport {
+/*@-webkit-viewport {
     width: device-width;
 }
 
@@ -45,7 +45,7 @@ body {
 
 @viewport {
     width: device-width;
-}
+}*/
 
 a {
     -webkit-transition: all ease 0.25s;
@@ -307,7 +307,7 @@ text-decoration: none;
 =====================================================================*/
 .countdown{
 	color: #fff;
-	margin: 90px auto 10px;
+	margin: 50px auto 30px;
 	width: 100%;
 }
 .countdown_row{
@@ -350,7 +350,7 @@ line-height: 25px;
 }
 
 .bol{
-    margin: 28px auto 0 auto;
+    margin: 28px auto 20px auto;
     padding: 60px;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -830,7 +830,7 @@ object {
 
 }
 .single-package .color-bg {
-    background-color: !important;
+    background-color: #fff !important;
 }
 .single-package .price h2 {
     color: #272727;
@@ -934,7 +934,7 @@ footer {
 
 footer .contact-box {
     margin-bottom: 78px;
-    padding-top: 120px;
+    padding-top: 40px;
 }
 
 footer .contact-box .contact-button {

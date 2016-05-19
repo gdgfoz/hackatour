@@ -128,7 +128,7 @@
 		<div class="only-logo">
 			<div class="navbar">
 				<div class="navbar-header">
-					<img src="images/hackatour.png" alt="">
+					<img src="images/hackatour-white.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -142,14 +142,7 @@
 
 					<!-- WELCOM MESSAGE -->
 					<h1 class="intro">Primeiro hackathon dedicado ao desenvolvimento do turismo de Foz do Iguaçu e região.</h1>
-					<!-- BUTTON -->
-					<div class="buttons" id="download-button">
-
-						<a href="#inscricao" class="btn btn-default btn-lg standard-button">
-						</i>Faça seu cadastro</a>
-
-					</div>
-					<!-- /END BUTTONS -->
+					<h4 class="intro">Rafain Palace Hotel & Convention Center<br/>Av. Olimpio Rafagnin, 2357<br/>Foz do Iguaçu - PR</h4>
 
 
 				</div>
@@ -168,7 +161,12 @@
 					<div class="inner-content">
 						<p class="text-big text-uppercase">Hackatour 2016</p>
 						<h1 class="heading-text">15, 16 e 17 de junho</h1>
-						<p>Rafain Palace Hotel & Convention Center<br/>Av. Olimpio Rafagnin, 2357<br/>Foz do Iguaçu - PR</p>
+						<div class="buttons">
+
+							<a href="#inscricao" class="btn btn-default btn-lg standard-button">
+								</i>Faça agora sua inscrição</a>
+
+						</div>
 					</div>
 				</div>
 
@@ -493,53 +491,21 @@ O evento não cobrirá despesas de alocação, transporte, estacionamento ou ref
 				<!-- SUBSCRIPTION FORM WITH TITLE -->
 				<div class="subscription-form-container">
 
-					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Fique por dentro!</h2>
+					<h2 class="wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">Faça agora sua inscrição</h2>
 
 					<div class="colored-line white">
 					</div>
 					<div class="section-description">
-						Deixe suas informações de contato que lhe manteremos informado sobre o evento.
+						Através do site do Festival de Turismo, faça sua inscrição selecionando a opção "Hackatour".
 					</div>
 					<div class="colored-line white mg-bot-60">
 					</div>
 
-					<!-- =====================
-					     MAILCHIMP FORM STARTS
-					     ===================== -->
 
-					<form ng-submit="main.register()" name="cadForm" class="subscription-form mailchimp form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" role="form">
+					<a href="http://www.euvouparticipar.com.br/FIT/Ficha/" target="_blank" class="btn btn-default btn-lg standard-button">
+						Acessar ficha e fazer inscrição
+					</a>
 
-						<!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
-						<h4 ng-show="main.msg.text" class="msg-aviso" ng-class="{'error-rg': !main.msg.status}">{{main.msg.text}}</h4>
-
-						<!-- EMAIL INPUT BOX -->
-						<input type="text" name="name"  ng-model="main.row.name" required  placeholder="Nome" class="form-control input-box mg-bt-5"> <br />
-						<input type="email" name="email"  ng-model="main.row.mail" required placeholder="Seu E-mail" class="form-control input-box"> <br />
-
-						<!-- SUBSCRIBE BUTTON -->
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Enviar</button>
-
-					</form>
-					<!-- /END MAILCHIMP FORM STARTS -->
-
-					<!-- =====================
-					     LOCAL TXT FORM STARTS
-					     ===================== -->
-
-					<!-- THIS FORM IS COMMENTED TO HIDE
-
-					<form class="subscription-form form-inline wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s" id="subscribe" role="form">
-
-						<h4 class="subscription-success"><i class="icon_check"></i> Thank you! We will notify you soon.</h4>
-						<h4 class="subscription-error">Something Wrong!</h4>
-
-						<input type="email" name="email" id="subscriber-email" placeholder="Your Email" class="form-control input-box">
-
-						<button type="submit" id="subscribe-button" class="btn btn-default standard-button">Subscribe</button>
-
-					</form>
-
-					-->
 
 					<!-- / LOCAL TXT SAVING FORM END -->
 
