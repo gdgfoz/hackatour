@@ -388,7 +388,8 @@ line-height: 25px;
 .bg-hacka{
     background-image: url('../images/bg-cataratas.jpg');
     background-position: top right;
-background-size: cover;
+    background-size: cover;
+    padding-top: 60px;
 }
 
 .mg-bt-5{
@@ -871,7 +872,7 @@ object {
 -----------------------------------------*/
 
 .subscription {
-    padding-top: 60px;
+    padding-top: 0px;
 }
 
 .subscription {
