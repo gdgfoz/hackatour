@@ -320,5 +320,5 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 var newYear = new Date();
 //newYear = new Date(ano, mes, dia, hora,minuto);
-newYear = new Date(2016, 5, 15, 8, 30);
+newYear = new Date(2016, 5, 16, 8, 00);
 $('.defaultCountdown').countdown({until: newYear, format: 'DHMS'});
